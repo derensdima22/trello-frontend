@@ -1,0 +1,25 @@
+.text-container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  color: white;
+  height: 100%;
+}
+
+.animated-text {
+  position: absolute;
+  white-space: nowrap;
+  animation: slide-in-out 5s linear infinite;
+}
+
+@keyframes slide-in-out {
+  0% {
+    transform: translateX(100%);
+  }
+  50% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}

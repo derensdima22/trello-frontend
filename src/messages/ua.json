@@ -1,0 +1,15 @@
+{
+  "HomePage": {
+    "title": "Привіт Світ!",
+    "about": "Перейдіть на сторінку про нас"
+  },
+  "themes": {
+    "dark": "темний",
+    "light": "свiтлий",
+    "system": "системний"
+  },
+  "LocaleSwitcher": {
+    "label": "Змiнити мову",
+    "locale": "{locale, select, ua {ua Ukraine} en {🇺🇸 English} other {Unbekannt}}"
+  }
+}

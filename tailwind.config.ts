@@ -12,10 +12,20 @@ const config: Config = {
   theme: {
     extend: {
       backgroundImage: () => ({
-        'gradient-dark': 'linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,6,59,1) 52%)',
+        'gradient-dark': 'linear-gradient(180deg, rgba(32,30,44,1) 60%, rgba(18,17,25,1) 100%)',
         'gradient': 'linear-gradient(180deg, rgba(255,255,255,1) 50%, rgba(226,226,226,1) 100%)',
       }),
-      colors: COLORS,
+      colors: {
+        ...COLORS,
+        blue: {
+          800: '#3f4f66',
+          900: '#0f172a',
+        },
+        grey: {
+          200: 'e1e4e9',
+          400: '#e2e2e2'
+        }
+      },
       fontSize: {
         'xs': '0.625rem',
         'sm': '0.75rem',

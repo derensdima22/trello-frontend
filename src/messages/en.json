@@ -1,0 +1,15 @@
+{
+  "HomePage": {
+    "title": "Hello world!",
+    "about": "Go to the about page"
+  },
+  "themes": {
+    "dark": "dark",
+    "light": "light",
+    "system": "system"
+  },
+  "LocaleSwitcher": {
+    "label": "Change language",
+    "locale": "{locale, select, ua {ua Ukraine} en {🇺🇸 English} other {Unknown}}"
+  }
+}
